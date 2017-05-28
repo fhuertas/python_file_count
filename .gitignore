@@ -1,0 +1,17 @@
+# IntelliJ files
+
+.idea
+env
+env-*
+# Python temporal files
+__pycache__
+*.egg-info
+*.pyc
+.coverage
+
+# package files
+dist
+build
+
+# carto data
+full_data
