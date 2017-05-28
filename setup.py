@@ -10,13 +10,13 @@ required = [
     'vanilla==0.1.16'
 ]
 
-setup(name='python_base',
+setup(name='file_count',
       version=read('VERSION'),
       author="Francisco Huertas",
       author_email="francisco@fhuertas.com",
       license="Apache2",
       packages=["file_count"],
-      description="Python base project",
+      description="Read properties of big files",
       long_description=read('README.md'),
       url='https://github.com/fhuertas/python_file_count',
       download_url="https://github.com/fhuertas/python_file_count/tarball/{}".format(read('VERSION')),
